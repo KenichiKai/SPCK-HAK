@@ -31,8 +31,8 @@ a{
     margin-left: 00px;
 }
 
-.top-menu{
-    background: black;
+/* .top-menu{
+    background: rgb(161, 130, 98);
     color: white;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -40,15 +40,15 @@ a{
     grid-row-gap: 1em;
     padding: 14px 30px;
     margin-bottom: 36px;
-}
+} */
 
-.top-menu .page{
+/* .top-menu .page{
     display: flex;
     justify-content: space-evenly;   
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
-}
+} */
 
 .top-menu .page a{
     color: white;
@@ -166,9 +166,9 @@ a{
 }
 
 .text-p{
-    margin-top: 40px;
+    margin-top: 240px;
     margin-left: 70px;
-    font-size: 35px;
+    font-size: 74px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .text-h1{
@@ -176,4 +176,22 @@ a{
     margin-top: 10px;
     font-size:20px;
     margin-right: 899px;
+}
+
+.header{
+    
+    background: rgb(168, 130, 98);
+}
+.top-menu{
+    background: rgb(161, 130, 98);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px 30px;
+    margin-bottom: 36px;
+}
+.menu-bottom {
+    display: flex;
 }
