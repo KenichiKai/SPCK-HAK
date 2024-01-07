@@ -1,197 +1,379 @@
-*{
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-#highlight{
-    border-bottom: 2px solid black;
-    color: black;
-}
-.nav-item{
+.container1 {
+    padding: 40px 0;
     text-align: center;
-    /* padding-top: 80px; */
-    font-family: Arial, Helvetica, sans-serif;
- 
-    margin: 20px;
+    font-size: small;
+    background: linear-gradient(
+    to top,
+    rgb(223, 199, 178) 0%, 
+    rgb(223, 199, 178) 52%,
+    white 52%,
+    white 90%
+  );
+}
+
+.nav {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    z-index: 10;
+}
+
+.nav-content{
+    font-family: monospace;
     font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-btn {
+    margin-right: 50px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.nav img {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-item {
     color: white;
     text-decoration: none;
     display: inline-block;
-    /* padding: 32px 10px; */
+    padding: 32px 10px;
 }
 
-a{
-    text-decoration: none;
-    cursor: pointer;
-}
-.top-menu img{
-    margin-left: 00px;
-}
-
-/* .top-menu{
-    background: rgb(161, 130, 98);
+.nav-item:hover {
+    background: gray;
     color: white;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 9em;
-    grid-row-gap: 1em;
-    padding: 14px 30px;
-    margin-bottom: 36px;
+}
+
+
+nsdns
+.mySlide1{
+    width: 1384px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100vw; */
+  height: 500px;
+    
+}
+/* .mainAttraction{
+    font-size: 27px;
+    text-align:left ;
+    font-family: monospace; cái nào cmt như này thì đừng xóa
 } */
-
-/* .top-menu .page{
-    display: flex;
-    justify-content: space-evenly;   
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: 600;
-} */
-
-.top-menu .page a{
-    color: white;
-    margin: 20px;
+.idea{
+    font-size: 29px;
+    text-align:left ;
+    font-family: monospace;
 }
-
-.top-menu .icon{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.top-menu .icon a{
-    text-decoration: none;
-    color: white;
-}
-
-.top-menu .icon i{
-    padding: 0 16px;
-    cursor: pointer;
-    font-size: 19px;
-}
-
-.lines{
-    border-right: 1px solid white;
-    height: 36px;
-}
-
-.main-content .selector{
-    padding: 16px 0px;
+.lolo1 {
     text-align: center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif
 }
-
-.main-content .selector a{
-    font-size: 17px;
-    font-weight: 500;
-    color: #989898;
-    padding: 12px 22px;
+.lolo {
+    margin-top: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 32px;
 }
-
-#products {
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    padding: 2.5em 0;
+.lolo2{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 12px;
 }
-  
-#products .card {
-    max-width: 18em;
-    padding: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.7s;
+.lolo3 {
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
 }
-
-#products .card:hover{
-    transform: translateY(-0.1in);
+.lolo4 {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 12px;
 }
-
-#products .card .image-container {
+.justp{
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.justp2{
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
     text-align: left;
 }
-
-#products .card .image-container img {
-    max-width: 100%;
-    object-fit: contain;
-    height: 15em;
-    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+.FOM:hover{
+    color: rgb(173, 134, 112);
+    transform: scale(1.01);
+    cursor: pointer;
+    color: white;
+}
+.FOM{
+    width: 212px;
+    font-size: 20px;
+    height: 45px ;
+    
 }
 
-#products .card .container {
-    padding-top: 1em;
-    color: #110f29;
-}
-
-#products .card .container h5 {
-    font-weight: 500;
-    font-size: 18px;
-}
-
-#products .card .container h6 {
-    font-weight: 400;
-    font-size: 14px;
-    padding-top: 5px;
-}
-
-#products .card .container button{
-    background-color: white;
-    border: none;
-    border: solid 1px black;
-    margin-top: 14px;
-    padding: 5px 0px;
-    text-transform: uppercase;
-    font-weight: 500;
+.container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider {
+    width: 100%;
+}
+.slider img {
+    width: 100%;
+
+}
+
+.item {
+    text-align: center;
+    /* padding-top: 80px; */
+    font-family: cursive;
+    background: white;
+    margin: 0;
+}
+
+.moon-activity {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.moon-activity_inner {
+    padding-top: 80px;
+    background-color: antiquewhite;
+}
+
+
+.member {
+    height: 100vh;
+    background: red;
+}
+.member-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.member-imgs img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.songs-note {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+button {
+    background-color: cyan;
+    color: white;
+    width: 100px;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+    transform: scale(1);
+
+}
+
+button:hover {
+    background: blue;
+    transform: scale(1.01);
     cursor: pointer;
 }
 
-#products .card .container button:hover{
-    background-color: black;
-    color: white;
+
+.map img {
+    height: 500px;
 }
 
-.searchInput {
-    padding: 5px;
-    border-radius: 50px;
-    border: 1px #000 solid;
-    outline: none;
-}
-.hide {
-    display: none;
+span {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 24px;
+    color: blue;
+    cursor: pointer;
 }
 
-.text-p{
-    margin-top: 240px;
-    margin-left: 70px;
-    font-size: 74px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.text-h1{
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size:20px;
-    margin-right: 899px;
+.shopping {
+    /* text-align: center; */
+    /* padding-top: 100px; */
+    margin-top: 20px;
 }
 
-.header{
+.item-cake {
+    transition: all 0.5s    ;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: bisque;
+    height: 240px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-left: 32px;
     
-    background: rgb(168, 130, 98);
 }
-.top-menu{
-    background: rgb(161, 130, 98);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 14px 30px;
-    margin-bottom: 36px;
+.item-cake img {
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
 }
-.menu-bottom {
+
+.item-cake:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.moon-cake {
+    padding: 20px;
     display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.shopping {
+    width: 100px;
+    /* height: 100%; */
+    background-image: url("background.jpg");
+    background-size: contain;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.shopping-cake {
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* margin-bottom: 50px; */
+    color: black;
+    
+}
+#haha {
+    color: #000000;
+    cursor: pointer;
+}
+#haha1 {
+    color: #000;
+    cursor: pointer;
+}
+#haha:hover{
+    text-decoration: underline;
+}
+
+.shopping1 {
+    /* text-align: center; */
+    /* padding-top: 100px; */
+    margin-top: 20px;
+}
+
+.item-cake1 {
+    transition: all 0.5s    ;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: bisque;
+    height: 230px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-left: 25px;
+    text-align: center;
+      
+}
+.item-cake1 img {
+    border-radius: 10px;
+    width: 169px;
+    height: 160px;
+}
+
+.item-cake1:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.moon-cake1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.shopping1 {
+    width: 100px;
+    /* height: 100%; */
+    background-image: url("background.jpg");
+    background-size: contain;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.shopping-cake1 {
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    color: black;
+    
+}
+.about-side{
+    justify-content: right;
+}
+.box-item{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
 }
