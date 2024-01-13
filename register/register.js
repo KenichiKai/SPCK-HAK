@@ -50,6 +50,6 @@ document.getElementById("btnSubmit").addEventListener("click", function(e){
         listUsers.push(user)
         localStorage.setItem("listUsers", JSON.stringify(listUsers))
         alert("Success")
-        window.location.pathname = '../login/login.html'
+        window.location.href = 'login.html'
     }
 })
