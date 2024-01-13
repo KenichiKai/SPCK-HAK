@@ -154,7 +154,7 @@ body {
     align-items: center;
 }
 .slider {
-    width: 100%;
+    width: 100vw;
 }
 .slider img {
     width: 100%;
