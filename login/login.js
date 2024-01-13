@@ -21,7 +21,7 @@ document.getElementById("btnSubmit").addEventListener("click", (e)=>{
                 }
         }
         if(checkEmail){
-            window.location.pathname = "/index2.html"
+            window.location.pathname = "./index2.html"
         }
         else{
             alert("Wrong email or password")

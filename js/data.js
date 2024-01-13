@@ -80,7 +80,7 @@ const data = [
   {
     name: "Tho Nhi Ky food street",
     type: "food",
-    image: "/images/food1.jpg",
+    image: "./images/food1.jpg",
     about:
       "Chợ vặt Hồ Thị Kỷ nổi tiếng với con phố đầy những món ăn thời thượng với giá rẻ bất ngờ. Tuy có nhiều người nhưng trải nghiệm lang thang tìm đồ ăn cũng khá hấp dẫn nên địa điểm này thu hút rất nhiều người 🤤🚶",
   },
