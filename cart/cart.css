@@ -5,8 +5,8 @@
 }
 .btnDeleteAll {
   padding: 15px 20px;
-  background: rgb(247, 161, 161);
-  color: red;
+  background: red;
+  color: white;
   border: none;
   outline: none;
   border-radius: 10px;
@@ -16,7 +16,7 @@
 .btnBuy {
   padding: 15px 20px;
   background: rgb(161, 247, 175);
-  color: #000;
+  color: white;
   border: none;
   outline: none;
   border-radius: 10px;
