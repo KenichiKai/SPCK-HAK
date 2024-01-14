@@ -78,14 +78,14 @@ const data = [
       "Bên cạnh tất cả các phương tiện di chuyển trên, một chuyến tham quan bằng xích lô là điều không thể bỏ qua bất cứ khi nào bạn đến thăm Việt Nam, dù ở Hà Nội hay Thành phố Hồ Chí Minh. Bạn có thể quan sát và chụp ảnh đường phố và con người dễ dàng hơn, đồng thời bạn có thể trải nghiệm văn hóa, môi trường của Việt Nam và thử những điều mới.",
   },
   {
-    name: "Tho Nhi Ky food street",
+    name: "Phố ăn Thổ Nhĩ Kỳ",
     type: "food",
     image: "./images/food1.jpg",
     about:
       "Chợ vặt Hồ Thị Kỷ nổi tiếng với con phố đầy những món ăn thời thượng với giá rẻ bất ngờ. Tuy có nhiều người nhưng trải nghiệm lang thang tìm đồ ăn cũng khá hấp dẫn nên địa điểm này thu hút rất nhiều người 🤤🚶",
   },
   {
-    name: "Pho",
+    name: "Phở",
     type: "food",
 
     image: "./images/food2.jpg",
@@ -212,7 +212,7 @@ const data = [
       "Được xây dựng vào năm 1898 theo phong cách “rực rỡ” của Cộng hòa thứ 3 của Pháp, Nhà hát Lớn Sài Gòn đã được chứng nhận Di tích Quốc gia & là một trong những điểm tham quan hàng đầu của Thành phố Hồ Chí Minh. ",
   },
   {
-    name: "A Ố Show",
+    name: "À Ố Show",
     type: "city2",
 
     image: "./images/atc11.jpg",
