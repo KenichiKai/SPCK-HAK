@@ -332,7 +332,7 @@ function renderData() {
       market.insertAdjacentHTML(
         "beforeend",
         `
-              <div onClick="renderModal(${i})" class="item-cake1">
+              <div onClick="renderModal(${i})" class="item-cake1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                   <img src="${data[i].image}" alt="">
                                   <p style="font-size: 20px;">${data[i].name}</p>
                                   
