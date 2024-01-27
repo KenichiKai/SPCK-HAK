@@ -20,7 +20,7 @@ a{
 }
 
 .top-menu{
-    background: black;
+    background: rgba(173, 134, 112);
     color: white;
     display: grid;
     grid-template-columns: auto auto auto;
